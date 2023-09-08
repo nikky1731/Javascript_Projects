@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+.clock_container{
+    position: absolute;
+    color: cyan;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: Orbitron;
+    letter-spacing: 6px;
+    border: 4px cyan solid;
+    padding: 15px;
+}

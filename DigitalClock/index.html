@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIGITAL CLOCK</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>DIGITAL CLOCK</h1>
-        <div class="clock_container"></div>
-    </div>
-    <p id = "date"></p>
-    <p id = "day"></p>
-    <script src="clock.js"></script>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DIGITAL CLOCK</title>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Orbitron'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Aldrich'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="main_container" >
+            <div class="clock_container" id = "clock" onload="showTime()"></div>
+        </section>
+        <script src="clock.js"></script>
+    </body>
 </html>
+
