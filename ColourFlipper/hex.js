@@ -6,13 +6,14 @@ btn.addEventListener("click", function () {
   let hexColor = "#";
   for (let i = 0; i < 6; i++) {
     hexColor += hex[getRandomNumber()];
+    console.log(hexColor);
   }
-  // console.log(hexColor);
 
   color.textContent = hexColor;
   document.body.style.backgroundColor = hexColor;
 });
 
 function getRandomNumber() {
+  console.log(Math.floor(Math.random() * hex.length));
   return Math.floor(Math.random() * hex.length);
 }
