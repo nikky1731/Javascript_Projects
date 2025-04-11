@@ -34,3 +34,9 @@ h1{
     font-size: 5rem;
     margin: 30px 0;
 }
+.greenText{
+    color: rgb(62, 192, 62);
+}
+.redText{
+    color: rgb(198, 34, 34);
+}
