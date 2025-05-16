@@ -114,3 +114,8 @@
       line-height: 1;
     }
   }
+
+  .section-title {
+    text-align: center;
+    margin: 4rem 0 6rem 0;
+  }
