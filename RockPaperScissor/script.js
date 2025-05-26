@@ -37,6 +37,7 @@ function playGame(playerChoice){
     computerChoice.textContent = `computer: ${computerChoice}`;
     resultDisplay.textContent = result;
 
+    
     switch(result){
         case "You win!":
             resultDisplay.classList.add("greenText");
