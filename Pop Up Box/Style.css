@@ -1,0 +1,25 @@
+body{
+    background-color: #09dbd450;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    height: 28px;
+    justify-content: center;
+}
+h1, h2{
+    text-align: center;
+}
+
+h1{
+    color: green;
+    
+}
