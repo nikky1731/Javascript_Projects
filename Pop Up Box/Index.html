@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="./Style.css">
     <title>Pop Up</title>
 </head>
 <body>
     <div class="heading">
-        <h1>Home Page</h1>
+        <h1>Nikky's channel</h1>
     </div>
-    <h2>Creating a pop up Box using HTML, CSS, Js</h2>
-    <p>Click the below button to get the pop up screen</p>
+    <h2>
+          How to create Popup Box using 
+          HTML,CSS and JS
+      </h2>
+    <p id="sub-p">
+          Click below button for Popup
+      </p>
     <div class="outer">
         <div class="popup">
-            <h2>You have subscribed</h2>
-            <br/>
-            <button>close</button>
+            <i class="far fa-check-circle"></i>
+            <h2>You have Subscribed</h2>
+            <br />
+            <button id="closebtn">Close</button>
         </div>
-        <button>PopUp</button>
+        <button id="showbtn">Popup</button>
     </div>
-    
-    <br/>
-    <script src="./Script.js"></script>
+    <br />
+    <script src="./script.js"></script>
     
 </body>
 </html>
